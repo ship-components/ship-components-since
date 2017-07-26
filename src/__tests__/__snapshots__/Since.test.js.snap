@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it should render 1h when the difference from now and the timestamp is 3600000ms 1`] = `
+<span
+  className=""
+>
+  
+  1h
+  
+</span>
+`;
+
+exports[`it should render 1m when the difference from now and the timestamp is 60000ms 1`] = `
+<span
+  className=""
+>
+  
+  1m
+  
+</span>
+`;
+
+exports[`it should render 1s when the difference from now and the timestamp is 1000ms 1`] = `
+<span
+  className=""
+>
+  
+  1s
+  
+</span>
+`;
+
+exports[`it should render 30s when the difference from now and the timestamp is 30000ms 1`] = `
+<span
+  className=""
+>
+  
+  30s
+  
+</span>
+`;
+
+exports[`it should render in 30m when the difference from now and the timestamp is -1800000ms 1`] = `
+<span
+  className=""
+>
+  in 
+  30m
+  
+</span>
+`;
